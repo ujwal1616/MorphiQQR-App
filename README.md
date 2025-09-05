@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# 📡 MorphiQqr – Offline Messaging with QR Technology
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MorphiQqr is an experimental **offline-first messaging app** that allows users to send and receive messages by leveraging **QR codes** instead of internet or mobile data.  
 
-## Get started
+The goal is to enable communication in low-connectivity or no-network environments (remote areas, disaster zones, flights, etc.) using **innovative device-to-device data transfer methods**.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Current Features
+- 📱 **Send & receive text messages** via QR code scanning.
+- 📦 **Local-first storage** – messages are saved on-device until exchanged.
+- 🔒 **Privacy by design** – no central server required.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🔮 Upcoming Features (Planned Roadmap)
+- ✋ **Touch-to-send** → Tap two devices to exchange messages instantly.
+- 📡 **Bluetooth message transfer** → Faster exchange without scanning QR.
+- 🌐 **Mesh-up network** → Devices form an ad-hoc peer-to-peer network to relay messages without internet.
+- 📂 **Media support** → Extend beyond text to send small images/files offline.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ How I’m Planning to Build This
+- **Touch-to-send** → Use NFC / proximity-based device discovery for initiating quick transfers.
+- **Bluetooth sending** → Leverage native Bluetooth APIs for direct peer-to-peer message sync.
+- **Mesh-up network** → Experiment with **Wi-Fi Direct + Bluetooth mesh libraries** to form decentralized message relays.
+- **Scalability** → Prototype hybrid models where QR is fallback but devices auto-upgrade to faster channels if available.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 💡 Vision
+The ultimate vision is to **create a resilient, offline communication system** that can work:
+- In disaster relief zones 🌍
+- In rural/remote areas 🏞️
+- During network shutdowns 🚫📶
+- Even in flights ✈️
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🧑‍💻 Tech Stack
+- **Flutter/Dart** – mobile cross-platform development
+- **QR code libraries** – for encoding/decoding messages
+- **Local storage** – for message persistence
+- Planned: **Bluetooth, NFC, Wi-Fi Direct**
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📌 Project Status
+This app is in **MVP stage**. Core QR message exchange works, and upcoming updates will bring more advanced offline transfer modes.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## ⚡ About the Developer
+Built by **Ujwal Sharma**, passionate about **AI, offline-first apps, and next-gen communication systems**.  
+Currently working on multiple projects including [Metanoia](#) and AI-powered experiments.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+ Expo users and ask questions.
