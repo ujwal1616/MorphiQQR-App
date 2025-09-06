@@ -39,7 +39,7 @@ The ultimate vision is to **create a resilient, offline communication system** t
 ---
 
 ## 🧑‍💻 Tech Stack
-- **Flutter/Dart** – mobile cross-platform development
+- **React native** – mobile cross-platform development
 - **QR code libraries** – for encoding/decoding messages
 - **Local storage** – for message persistence
 - Planned: **Bluetooth, NFC, Wi-Fi Direct**
