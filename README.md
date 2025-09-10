@@ -47,8 +47,7 @@ The ultimate vision is to **create a resilient, offline communication system** t
 ---
 
 ## 📌 Project Status
-This app is in **MVP stage**. Core QR message exchange works, and upcoming updates will bring more advanced offline transfer modes.
-
+This app is in **MVP stage**. Core QR message exchange works, and upcoming updates will bring more advanced offline transfer modes.(I'm facing some debugging issues but will get to the root of it soon.)
 ---
 
 ## ⚡ About the Developer
