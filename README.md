@@ -55,4 +55,4 @@ Built by **Ujwal Sharma**, passionate about **AI, offline-first apps, and next-g
 Currently working on multiple projects including [Metanoia](#) and AI-powered experiments.
 
 ---
- Expo users and ask questions.
+ Expo users and ask questions. 
